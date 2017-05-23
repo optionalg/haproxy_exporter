@@ -89,7 +89,7 @@ fi
 %{?el7:/usr/lib/systemd/system/%{name}.service}
 %config(noreplace) /etc/default/%{name}
 %attr(755, prometheus, prometheus)/var/lib/prometheus
-%doc _build/%{_git_slug}/LICENSE _build/%{_git_slug}/README.md _build/%{_git_slug}/MAINTAINERS.md _build/%{_git_slug}/CONTRIBUTING.md
+%doc _build/%{_git_slug}/LICENSE _build/%{_git_slug}/README.md _build/%{_git_slug}/CONTRIBUTING.md
 
 %changelog
 * Tue May 23 2017 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.7.1-1.vortex
